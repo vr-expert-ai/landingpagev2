@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers static-assets deploy.
+  // `npx wrangler deploy` uploads the folder below and serves it as a static
+  // site (index.html at "/"). No Worker script needed — assets only.
+  "name": "landingpagev2",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./ai-glasses-work/ai-glass-landing-page/project"
+  }
+}

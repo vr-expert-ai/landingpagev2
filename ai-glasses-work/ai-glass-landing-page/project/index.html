@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Glasses for Business | Volume Pricing | VR Expert AI</title>
+<meta name="description" content="Compare AI glasses for business from Rokid, XReal, RealWear and more. B2B volume pricing, expert advice and enterprise support. Ships EU & US." />
+<meta property="og:title" content="AI Glasses for Business" />
+<meta property="og:description" content="Compare AI glasses for business from Rokid, XReal, RealWear and more. B2B volume pricing, expert advice and enterprise support. Ships EU & US." />
+
+<link rel="stylesheet" href="ds/colors_and_type.css" />
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #fff; color: #363636; font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  img { max-width: 100%; }
+  ::selection { background: rgba(255,144,87,0.25); }
+
+  @keyframes aixFade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes aixToast { from { opacity: 0; transform: translate(-50%, 12px); } to { opacity: 1; transform: translate(-50%, 0); } }
+  @keyframes aixScrollDot { 0%,100% { transform: translateY(0); opacity: .9; } 50% { transform: translateY(10px); opacity: .3; } }
+
+  .aix-stories-track::-webkit-scrollbar { display: none; }
+
+  /* hero CTA buttons — md size (per direct edits) */
+  .aix-hero-cta > button { height: 40px !important; font-size: 14px !important; padding: 0 16px !important; }
+
+  /* ---- responsive ---- */
+  @media (max-width: 860px) {
+    .aix-hero-row { flex-direction: column !important; justify-content: center !important; gap: 22px !important; padding: 92px 28px 48px !important; text-align: center; }
+    .aix-hero-copy { text-align: center !important; }
+    .aix-hero-cta { justify-content: center !important; }
+  }
+  @media (max-width: 1040px) {
+    .aix-usecase-grid { grid-template-columns: 1fr !important; }
+    .aix-usecase-rail { flex-direction: row !important; overflow-x: auto; padding-bottom: 6px; }
+    .aix-usecase-rail button { flex: 0 0 auto; }
+    .aix-usecase-detail { grid-template-columns: 1fr !important; }
+    .aix-hotspot-grid { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 920px) {
+    .aix-types-grid { grid-template-columns: 1fr 1fr !important; }
+    .aix-2col { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .aix-story-card { flex-basis: calc(60% - 8px) !important; }
+  }
+  @media (max-width: 600px) {
+    .aix-types-grid { grid-template-columns: 1fr !important; }
+    .aix-wizard-opts { grid-template-columns: 1fr !important; }
+    .aix-story-card { flex-basis: 86% !important; }
+    .aix-pin-label { display: none !important; }
+  }
+</style>
+
+<!-- Structured data (per plan §7) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ai.vr-expert.com/" },
+    { "@type": "ListItem", "position": 2, "name": "AI Glasses for Business", "item": "https://ai.vr-expert.com/ai-glasses-for-business" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What are AI glasses, in one sentence?", "acceptedAnswer": { "@type": "Answer", "text": "AI glasses are head-worn devices that put a camera, display and voice AI in a hands-free form factor, so frontline and knowledge workers can see guidance, capture context and get answers without reaching for a screen." } },
+    { "@type": "Question", "name": "How are AI glasses different from smart glasses and AR glasses?", "acceptedAnswer": { "@type": "Answer", "text": "Smart glasses is the broad buyer term; AR glasses overlay 3D content on the world; assisted reality shows a flat glanceable screen. AI glasses add an on-board assistant that understands what the camera sees." } },
+    { "@type": "Question", "name": "Do you offer volume pricing and pay-by-invoice?", "acceptedAnswer": { "@type": "Answer", "text": "We provide fleet quotes, framework agreements and invoice-based purchasing for procurement teams. Request a volume quote and an expert will scope it with you." } }
+  ]
+}
+</script>
+
+<!-- React + Babel (pinned) -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<!-- Design system bundle (plain JS) + image-slot web component -->
+<script src="ds/_ds_bundle.js"></script>
+<script src="src/image-slot.js"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- App (Babel JSX) — order matters: tweaks + lib before sections before app -->
+<script type="text/babel" src="src/tweaks-panel.jsx"></script>
+<script type="text/babel" src="src/lib.jsx"></script>
+<script type="text/babel" src="src/hero.jsx"></script>
+<script type="text/babel" src="src/sections1.jsx"></script>
+<script type="text/babel" src="src/sections2.jsx"></script>
+<script type="text/babel" src="src/sections3.jsx"></script>
+<script type="text/babel" src="src/sections4.jsx"></script>
+<script type="text/babel" src="src/sections5.jsx"></script>
+<script type="text/babel" src="src/app.jsx"></script>
+</body>
+</html>
