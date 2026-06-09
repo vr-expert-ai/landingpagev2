@@ -1,0 +1,12 @@
+# Local Claude / editor config (machine-specific paths)
+.claude/
+
+# Stray Claude process lock files that landed in this folder (root only)
+/[0-9]*.json
+
+# Original export tarball (redundant — extracted tree is committed)
+ai-glasses-work/bundle.tgz
+
+# OS cruft
+Thumbs.db
+.DS_Store
